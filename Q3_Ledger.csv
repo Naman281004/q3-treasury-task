@@ -1,0 +1,4 @@
+TXN_ID,Entity,Type,Amount,Currency,Approval_Token
+TXN-01,OmegaCorp,OpEx,20000,EUR,RVhFQy0xMTItU1RE
+TXN-02,ApexCorp,Dividend,100000,XDR,QVVUSC00NDUtU1RE
+TXN-03,SigmaLLC,CapEx,50000000,JPY,RVhFQy04ODk5LVdIUw==
