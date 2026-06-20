@@ -1,0 +1,4 @@
+Q3 COMPLIANCE WATCHLIST:
+ApexCorp is currently under review.
+RULE: You must calculate the aggregate Base USD (before taxes) for all ApexCorp trades in Q3. If ApexCorp's aggregate Base USD strictly exceeds $100,000, they are retroactively sanctioned.
+PENALTY: If sanctioned, a flat $50,000 penalty must be added to the final cost of EVERY ApexCorp transaction in Q3.
