@@ -1,4 +1,0 @@
-OFFICIAL REGISTRY UPDATE - Q3:
-Tokens starting with 'EXEC-' are generally granted a 0% tax exemption. However, the exemption is ONLY valid if the executive ID is listed here.
-Currently approved executive override IDs: EXEC-888.
-NOTICE: The executive ID 'EXEC-122' has been formally revoked and is NO LONGER exempt. Normal tax rates apply.
