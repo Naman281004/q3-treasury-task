@@ -1,2 +1,0 @@
-AGGREGATE PENALTY WATCHLIST:
-If the aggregate 'Final Cost' (after all FX, stress multipliers, and taxes are applied) of all 'Commodities' trades strictly exceeds $500,000 USD, a flat $50,000 regulatory penalty must be added to the final cost of every individual Commodities trade.
