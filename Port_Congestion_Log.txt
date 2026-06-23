@@ -1,2 +1,0 @@
-AGGREGATE PORT PENALTY WATCHLIST:
-If the aggregate 'Pre-Penalty Cost' (after all base rates, hidden fuel multipliers, and customs taxes are applied) of all 'Trans-Atlantic' shipments strictly exceeds $200,000 USD, a flat $50,000 holding penalty must be retroactively added to the final cost of every individual Trans-Atlantic shipment.
