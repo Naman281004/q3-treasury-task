@@ -1,2 +1,0 @@
-AGGREGATE PENALTY WATCHLIST:
-If the aggregate pre-penalty 'Final Cost' (after all FX, stress multipliers, and taxes are applied) of all 'Tech' trades strictly exceeds $1,000,000 USD, a flat $100,000 regulatory penalty must be added to the final cost of every individual Tech trade.
