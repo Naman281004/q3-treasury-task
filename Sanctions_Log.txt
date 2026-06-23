@@ -1,0 +1,2 @@
+AGGREGATE PENALTY WATCHLIST:
+If the aggregate 'Final Cost' of all Commodities trades strictly exceeds $700,000 USD, add a flat $75,000 penalty to every Commodities trade.
