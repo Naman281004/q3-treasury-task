@@ -1,2 +1,0 @@
-AGGREGATE VARIANCE PENALTY:
-If the sum total of the pre-penalty CWD scores for all patients in the cohort strictly exceeds 3.00, the cohort is deemed hyper-variant. You must retroactively subtract a statistical penalty of 0.50 exclusively from the final CWD score of patient P2.
