@@ -1,2 +1,0 @@
-CASCADE THROTTLE PROTOCOL:
-Examine the calculated Final Key Rate for nodes Node-A and Node-B. If the combined sum of their Final Key Rates is strictly less than 5,000 bits, throttle Node-C to exactly 0 bits.
