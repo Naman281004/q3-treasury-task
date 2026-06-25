@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<InfrastructureTelemetry>
-    <Payload><![CDATA[eJwLDgrTNTS0MjE1qAkGMU2szAygTFMrY1MDAIkBCBM=]]></Payload>
-</InfrastructureTelemetry>
