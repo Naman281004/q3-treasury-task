@@ -1,2 +1,0 @@
-HARMONIC COLLAPSE:
-If the aggregate Pre-Penalty sum of all nodes strictly exceeds 9,000, a harmonic collapse is imminent. You must retroactively subtract a flat 1,500 penalty strictly from the node that possessed the highest calculated Euler Totient φ(n) value.
