@@ -1,0 +1,2 @@
+INFRASTRUCTURE THROTTLE:
+If the aggregate final IOPS of all servers combined strictly exceeds 5,000, subtract a flat 1,000 IOPS penalty from the server with the highest initial Base IOPS.
