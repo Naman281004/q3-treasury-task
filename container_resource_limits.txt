@@ -1,0 +1,18 @@
+{
+  "react-frontend": {
+    "max_memory_mb": 8192,
+    "cpu_cap": "4.0"
+  },
+  "express-backend": {
+    "max_memory_mb": 16384,
+    "cpu_cap": "8.0"
+  },
+  "mongo-primary": {
+    "max_memory_mb": 32768,
+    "cpu_cap": "16.0"
+  },
+  "mongo-replica": {
+    "max_memory_mb": 32768,
+    "cpu_cap": "16.0"
+  }
+}

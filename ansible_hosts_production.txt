@@ -1,0 +1,34 @@
+---
+environment: production
+active_deployments:
+  react_frontend_cluster:
+    hosts:
+      - mac: "0A:11:22:33:44:01"
+      - mac: "0A:11:22:33:44:02"
+      - mac: "0A:11:22:33:44:03"
+      - mac: "0A:11:22:33:44:04"
+      - mac: "0A:11:22:33:44:05"
+  express_backend_cluster:
+    hosts:
+      - mac: "0A:11:22:33:44:06"
+        port: 3000
+      - mac: "0A:11:22:33:44:07"
+        port: 3000
+      - mac: "0A:11:22:33:44:08"
+        port: 3000
+      - mac: "00:1A:2B:99:88:77"
+        port: 3000
+      - mac: "0A:11:22:33:44:0A"
+        port: 3000
+      - mac: "0A:11:22:33:44:0B"
+        port: 3000
+      - mac: "0A:11:22:33:44:0C"
+        port: 3000
+      - mac: "0A:11:22:33:44:0D"
+        port: 3000
+      - mac: "0A:11:22:33:44:0E"
+        port: 3000
+      - mac: "0A:11:22:33:44:0F"
+        port: 3000
+  database_cluster:
+    primary_mac: "0A:11:22:33:44:10"
