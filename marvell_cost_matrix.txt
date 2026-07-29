@@ -1,0 +1,12 @@
+# Internal Cost Transfer Matrix for Repurposed Nodes (2026 Fiscal Year)
+# Format: Node Role | Internal Billing Code | Hourly Cost (USD) | Cost Center
+
+react-frontend | CHG-RFE-110 | 0.05 | IT-OPS
+express-backend | CHG-EXB-220 | 0.08 | IT-OPS
+mongo-primary | CHG-MDB-330 | 0.15 | DB-ADMIN
+mongo-replica | CHG-MDB-331 | 0.12 | DB-ADMIN
+redis-cache | CHG-RDC-440 | 0.06 | IT-OPS
+nginx-lb | CHG-NLB-550 | 0.04 | NET-OPS
+elk-logger | CHG-ELK-660 | 0.18 | SEC-OPS
+
+Note: Repurposed nodes transferred to the ML team (AI-RND-2026) receive a 10% depreciation discount on the listed hourly cost for internal chargeback routing

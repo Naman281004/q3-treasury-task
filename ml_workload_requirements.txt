@@ -1,0 +1,40 @@
+apiVersion: machinelearning.marvell.com/v1beta1
+kind: RepurposingProfile
+metadata:
+  name: marvell-vision-ai-cluster
+  labels:
+    project: deep-learning-migration
+    cost-center: AI-RND-2026
+spec:
+  governance:
+    max_nodes_repurposed: 10
+    approval_required: true
+  workloads:
+    - name: mnist-training-pipeline
+      priority: high
+      resource_requests:
+        min_ram_gb: 8
+        min_cpu_cores: 4
+      eligibility_gate:
+        max_cpu_util_threshold: 0.20
+      tolerations:
+        - key: "node-role.kubernetes.io/ml-worker"
+          operator: "Exists"
+          effect: "NoSchedule"
+    - name: rcnn-inference-engine
+      priority: critical
+      resource_requests:
+        min_ram_gb: 16
+        min_cpu_cores: 8
+      eligibility_gate:
+        max_cpu_util_threshold: 0.20
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values:
+                      - rcnn-inference-engine
+              topologyKey: "kubernetes.io/hostname"
